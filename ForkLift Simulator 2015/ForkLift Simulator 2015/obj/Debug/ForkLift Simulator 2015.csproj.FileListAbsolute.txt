@@ -1,0 +1,3 @@
+C:\Users\1750019\Google Drive\Period 2 CPI - Kurtis Bowen\Not Shared\ForkLift Simulator 2015\ForkLift Simulator 2015\bin\Debug\ForkLift Simulator 2015.exe.config
+C:\Users\1750019\Google Drive\Period 2 CPI - Kurtis Bowen\Not Shared\ForkLift Simulator 2015\ForkLift Simulator 2015\obj\Debug\ForkLift Simulator 2015.exe
+C:\Users\1750019\Google Drive\Period 2 CPI - Kurtis Bowen\Not Shared\ForkLift Simulator 2015\ForkLift Simulator 2015\obj\Debug\ForkLift Simulator 2015.pdb

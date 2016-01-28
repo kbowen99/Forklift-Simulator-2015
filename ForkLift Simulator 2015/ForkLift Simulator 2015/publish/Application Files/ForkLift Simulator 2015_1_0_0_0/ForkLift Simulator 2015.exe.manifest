@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ForkLift Simulator 2015.exe" version="1.0.0.0" publicKeyToken="adcf2270e9678fb5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ForkLift Simulator 2015" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ForkLift Simulator 2015.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ForkLift Simulator 2015.exe" size="2336256">
+      <assemblyIdentity name="ForkLift Simulator 2015" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VSZI8a7R4z1Uy+YiT/QS6UCkdoR4zix7apaRHWefwoA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Favicon.ico" size="135532">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8/pD5yzCGzvJolBqzwz99ZPeOO2STM6i1M4qpme6tcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ForkLift Simulator 2015.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KURT-PC2\Kurtis" issuerKeyHash="02b07b4d53cb1c7e40f343ed60d89c452b643556" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>j+yv3feMHEC0LFI8aPiD9LJnotTSUQmCuRBd0J+0ZuM=</DigestValue></Reference></SignedInfo><SignatureValue>fR9uOcmQHu3TTMojljjgZx14uAfNYN+Wv66tJHd0njiYXhE6wh8hgaW6++oqTUObPrZnp1uNUSBMe2uKGmTCjU+iKOXycYbGcYx/EM42u+TDHeGyYPJg5lr1YKQjCcquHSNHlzbwxCKduhu+M7rPDJomcIgs2NROz9haLGY6K8k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5maHqCjMHFKDQakYdDElGvoZzpl6V9zhZNPO1qY6sgi7Lu6s6Ii9cO//yqqM8xdtrdUaSUtkbgi4TCBt1/rDAHwpfESL9uGoVp+wWTdgdX4vD82IhJKgcbifTCfOY3p77mpAWKNRVjS1c9NOTV9tIu5/1NDXJFwoPRSzexO0dJs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e366b49fd05d10b9820951d2d4a267b2f483f8683c522cb4401c8cf7ddafec8f" Description="" Url=""><as:assemblyIdentity name="ForkLift Simulator 2015.exe" version="1.0.0.0" publicKeyToken="adcf2270e9678fb5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KURT-PC2\Kurtis</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>i5tSShl3Nz+2bj9d2ePsOitZbJZ+0iEHWzMUUnYE8Io=</DigestValue></Reference></SignedInfo><SignatureValue>wyIDpL1EnG7ARavdKQJNubnuYJjyxKWd1ckNM3Q9+eHaEwQZvgg2mVNmh4GGV6qLL+PSU14jGC78UH6BWEDtBayhdKBV802ofsUHR9WL8i/fbUCqa1hGpPxMxe4snw/tg+GPM6QVYeP3i3vNaPOEYXkXxdyX9i09g9J839DVZPE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5maHqCjMHFKDQakYdDElGvoZzpl6V9zhZNPO1qY6sgi7Lu6s6Ii9cO//yqqM8xdtrdUaSUtkbgi4TCBt1/rDAHwpfESL9uGoVp+wWTdgdX4vD82IhJKgcbifTCfOY3p77mpAWKNRVjS1c9NOTV9tIu5/1NDXJFwoPRSzexO0dJs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQbDVxEwumCp5NKfRBENMwfjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ASwBVAFIAVAAtAFAAQwAyAFwASwB1AHIAdABpAHMwHhcNMTUwMTE3MTcwNTUyWhcNMTYwMTE3MjMwNTUyWjApMScwJQYDVQQDHh4ASwBVAFIAVAAtAFAAQwAyAFwASwB1AHIAdABpAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOZmh6gozBxSg0GpGHQxJRr6Gc6Zelfc4WTTztamOrIIuy7urOiIvXDv/8qqjPMXba3VGklLZG4IuEwgbdf6wwB8KXxEi/bhqFafsFk3YHV+Lw/NiISSoHG4n0wnzmN6e+5qQFijUVY0tXPTTk1fbSLuf9TQ1yRcKD0Us3sTtHSbAgMBAAEwDQYJKoZIhvcNAQELBQADgYEATkoSgZfpP4tI41wpEcHuN+iAAsBcRyFbuiZa22ZF3tVnEcXSmMuR/e+P22i0BEoAlf2z9oNJVAmugwc5X63D7m0BHJv6EU48lTcyFFW676cyR+WRM2wruh5U9ejfickD6L4F9nAH+vQkhrtuBKlCPdigUjSo9wA4gFhvqjJeq0M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
